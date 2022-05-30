@@ -1,6 +1,6 @@
 const fs = require("node:fs");
 const inputUser = process.argv.slice(3);// entrada del usuario argumentos ingresados en la consola
-//console.log(inputUser)
+console.log(inputUser)
 const routeUser = process.argv[2] // ruta del usuario
 //console.log(routeUser)
 const existRoute = (route) => fs.existsSync(route);//existe ruta
